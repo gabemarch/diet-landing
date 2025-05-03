@@ -1,0 +1,36 @@
+{
+    "HomePage": {
+        "title": "Hello world!",
+        "about": "Go to the about page"
+    },
+    "AppInfo": {
+        "title": "What is IRresistible App?",
+        "description": "IRresistible is a specialized app designed specifically for people managing insulin resistance. We understand the unique challenges you face and provide the tools you need to make healthy eating simple and sustainable.",
+        "downloadButton": "Download the App",
+        "descriptionTitle": "Your Personal Insulin Resistance Companion",
+        "healthyRecipesTitle": "Healthy Recipes",
+        "healthyRecipesDescription": "Discover a curated collection of delicious, insulin-friendly recipes that help maintain stable blood sugar levels.",
+        "mealPlanningTitle": "Meal Planning",
+        "mealPlanningDescription": "Create personalized meal plans that fit your lifestyle and dietary needs, making healthy eating effortless.",
+        "shoppingListsTitle": "Smart Shopping Lists",
+        "shoppingListsDescription": "Generate organized shopping lists based on your meal plans, helping you stay on track with your health goals."
+    },
+    "NewsletterSignup": {
+        "title": "Be the First to Know",
+        "description": "IRresistible is coming soon! Subscribe to our newsletter to get notified when the app launches and receive exclusive early access offers.",
+        "emailPlaceholder": "Enter your email",
+        "successMessage": "Thank you for subscribing! We'll keep you updated about our launch.",
+        "privacyMessage": "We respect your privacy. Unsubscribe at any time."
+    },
+    "Navigation": {
+        "subscribe": "Subscribe"
+    },
+    "Hero": {
+        "heroTitle": "Healthy recipes for insulin resistant people",
+        "heroDescription": "Customized diet plans and simple recipes for everyday life",
+        "heroButton": "Be the first to download"
+    },
+    "InsulinResistanceInfo": {
+        "insulinResistanceTitle": "Understanding Insulin Resistance"
+    }
+}

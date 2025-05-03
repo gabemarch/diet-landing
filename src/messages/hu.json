@@ -1,0 +1,36 @@
+{
+    "HomePage": {
+        "title": "Hello world!",
+        "about": "Go to the about page"
+    },
+    "AppInfo": {
+        "title": "Mi az IRresistible App?",
+        "description": "IRresistible egy speciális alkalmazás, amelyet azoknak a személyeknek terveztek, akik kezelik az inzulin-ellenállást. Értjük a különleges kihívásokat, amelyekkel szembesülnek, és a személyes egészségügyi étrendeket biztosítjuk, hogy egyszerű és fenntartható legyen.",
+        "downloadButton": "Az alkalmazás letöltése",
+        "descriptionTitle": "A személyre szabott inzulin-rezisztencia társad",
+        "healthyRecipesTitle": "Egészséges receptek",
+        "healthyRecipesDescription": "Fedezd fel egy kiválasztott gyűjteményt, amelynek segítségével a vér cukorszintje állandó marad.",
+        "mealPlanningTitle": "Étrendtervezés",
+        "mealPlanningDescription": "Személyre szabott étrendtervek készítése a mindennapokra, hogy egyszerű és fenntartható legyen.",
+        "shoppingListsTitle": "Okos vásárlási listák",
+        "shoppingListsDescription": "Generálj rendezett vásárlási listákat a mindennapokra, hogy a személyes egészségügyi célokra maradj."
+    },
+    "NewsletterSignup": {
+        "title": "Legyél az Első, Aki Tudni Szeretne",
+        "description": "IRresistible hamarosan elérhető! Iratkozz fel ránk a hírlevelere, hogy értesüljön a kiadásunkról és hogy kizárólagos előzetes hozzáférési ajánlatot kapjon.",
+        "emailPlaceholder": "Add meg e-mail címed",
+        "successMessage": "Köszönjük a feliratkozásod! Folytatni fogjuk a hírleveleket.",
+        "privacyMessage": "Személyes adatainkat nem osztjuk meg harmadik féllel."
+    },
+    "Navigation": {
+        "subscribe": "Feliratkozás"
+    },
+    "Hero": {
+        "heroTitle": "Egészséges receptek inzulinrezisztens embereknek",
+        "heroDescription": "Testreszabott étrendtervek és egyszerű receptek a mindennapokra",
+        "heroButton": "Legyél az első, aki letölti"
+    },
+    "InsulinResistanceInfo": {
+        "insulinResistanceTitle": "Mi az inzulin-rezisztancia?"
+    }
+}
