@@ -4,7 +4,7 @@ import { getTranslations } from 'next-intl/server';
 const AppInfo: React.FC = async () => {
   const t = await getTranslations('AppInfo');
   return (
-    <section className="py-16 px-4 bg-white">
+    <section className="py-16 px-4 bg-white" id="features">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-8">{t('title')}</h2>
         
@@ -18,21 +18,21 @@ const AppInfo: React.FC = async () => {
 
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4">{t('healthyRecipesTitle')}</h3>
+              <h3 className="text-xl font-semibold mb-4 heading-text">{t('healthyRecipesTitle')}</h3>
               <p className="text-gray-700">
                 {t('healthyRecipesDescription')}
               </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4">{t('mealPlanningTitle')}</h3>
+              <h3 className="text-xl font-semibold mb-4 heading-text">{t('mealPlanningTitle')}</h3>
               <p className="text-gray-700">
                 {t('mealPlanningDescription')}
               </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4">{t('shoppingListsTitle')}</h3>
+              <h3 className="text-xl font-semibold mb-4 heading-text">{t('shoppingListsTitle')}</h3>
               <p className="text-gray-700">
                 {t('shoppingListsDescription')}
               </p>

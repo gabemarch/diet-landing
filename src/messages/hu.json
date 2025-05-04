@@ -20,17 +20,39 @@
         "description": "IRresistible hamarosan elérhető! Iratkozz fel ránk a hírlevelere, hogy értesüljön a kiadásunkról és hogy kizárólagos előzetes hozzáférési ajánlatot kapjon.",
         "emailPlaceholder": "Add meg e-mail címed",
         "successMessage": "Köszönjük a feliratkozásod! Folytatni fogjuk a hírleveleket.",
-        "privacyMessage": "Személyes adatainkat nem osztjuk meg harmadik féllel."
+        "privacyMessage": "Személyes adatainkat nem osztjuk meg harmadik féllel.",
+        "subscribe": "Feliratkozás",
+        "subscribing": "Feliratkozás folyamatban..."
     },
     "Navigation": {
-        "subscribe": "Feliratkozás"
+        "subscribe": "Feliratkozás",
+        "home": "Főoldal",
+        "aboutIR": "Inzulin-rezisztencia",
+        "features": "Funkciók",
+        "contact": "Kapcsolat"
     },
     "Hero": {
-        "heroTitle": "Egészséges receptek inzulinrezisztens embereknek",
+        "heroTitle": "Egészséges receptek inzulin-rezisztens embereknek",
         "heroDescription": "Testreszabott étrendtervek és egyszerű receptek a mindennapokra",
         "heroButton": "Legyél az első, aki letölti"
     },
     "InsulinResistanceInfo": {
-        "insulinResistanceTitle": "Mi az inzulin-rezisztancia?"
+        "insulinResistanceTitle": "Mi az inzulin-rezisztancia?",
+        "insulinResistanceDescription": "Az inzulin-rezisztencia egy olyan állapot, amelyben a test a sejtjeiben nem megfelelően reagál az inzulinre, a vér cukorszintjének szabályozására szolgáló hormonra. Ez magas vér cukorszintre és végül típus 2-es cukorbetegséghez vezethet, ha nem megfelelően kezelik.",
+        "insulinResistanceCardTitle": "Mi az inzulin-rezisztencia?",
+        "symptomsTitle": "Gyakori tünetek",
+        "symptomsFatigue": "Kimerültség és alacsony energia szint",
+        "symptomsIncreasedHunger": "Növekedett éhség és kíváncsiság",
+        "symptomsDifficultyLosingWeight": "Súlyvesztés nehézségei",
+        "symptomsHighBloodSugar": "Magas vér cukorszint",
+        "symptomsDarkPatches": "Sötét sávok a bőrön (acanthosis nigricans)",
+        "howOurAppCanHelp": "Hogyan segít az alkalmazásunk?",
+        "howOurAppCanHelpDescription": "Az alkalmazásunk személyre szabott eszközöket és irányítást biztosít az inzulin-rezisztencia kezeléséhez:",
+        "howOurAppCanHelpCustomizedMealPlanning": "Személyre szabott étrendtervek a szükségleteid alapján",
+        "howOurAppCanHelpBloodSugarTrackingAndMonitoring": "Vér cukorszint nyomon követése és monitorozása",
+        "howOurAppCanHelpEducationalResources": "Inzulin-rezisztencia oktatási erőforrások",
+        "howOurAppCanHelpProgressTrackingAndGoalSetting": "Előrehaladás nyomon követése és célok beállítása",
+        "howOurAppCanHelpCommunitySupportAndExpertAdvice": "Közösségi támogatás és szakértői tanácsadás",
+        "startYourJourney": "Kezdje az utat"
     }
 }

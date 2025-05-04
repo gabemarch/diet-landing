@@ -31,10 +31,10 @@ const Navigation: React.FC = () => {
   };
 
   const navItems = [
-    { name: 'Home', href: '/' },
-    { name: 'About IR', href: '#about-ir' },
-    { name: 'Features', href: '#features' },
-    { name: 'Contact', href: '#contact' },
+    { name: t('home'), href: '/' },
+    { name: t('aboutIR'), href: '#about-ir' },
+    { name: t('features'), href: '#features' },
+    { name: t('contact'), href: '#contact' },
   ];
 
   return (
@@ -62,9 +62,9 @@ const Navigation: React.FC = () => {
               </Link>
             ))}
             <Link
-              href="#newsletter"
-              onClick={(e) => handleScroll(e, '#newsletter')}
-              className="bg-green-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition-colors"
+              href="#contact"
+              onClick={(e) => handleScroll(e, '#contact')}
+              className="button text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition-colors"
             >
               {t('subscribe')}
             </Link>

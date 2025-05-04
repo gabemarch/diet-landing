@@ -3,6 +3,7 @@
         "title": "Hello world!",
         "about": "Go to the about page"
     },
+
     "AppInfo": {
         "title": "What is IRresistible App?",
         "description": "IRresistible is a specialized app designed specifically for people managing insulin resistance. We understand the unique challenges you face and provide the tools you need to make healthy eating simple and sustainable.",
@@ -20,10 +21,16 @@
         "description": "IRresistible is coming soon! Subscribe to our newsletter to get notified when the app launches and receive exclusive early access offers.",
         "emailPlaceholder": "Enter your email",
         "successMessage": "Thank you for subscribing! We'll keep you updated about our launch.",
-        "privacyMessage": "We respect your privacy. Unsubscribe at any time."
+        "privacyMessage": "We respect your privacy. Unsubscribe at any time.",
+        "subscribe": "Subscribe",
+        "subscribing": "Subscribing..."
     },
     "Navigation": {
-        "subscribe": "Subscribe"
+        "subscribe": "Subscribe",
+        "home": "Home",
+        "aboutIR": "About IR",
+        "features": "Features",
+        "contact": "Contact"
     },
     "Hero": {
         "heroTitle": "Healthy recipes for insulin resistant people",
@@ -31,6 +38,22 @@
         "heroButton": "Be the first to download"
     },
     "InsulinResistanceInfo": {
-        "insulinResistanceTitle": "Understanding Insulin Resistance"
+        "insulinResistanceTitle": "Understanding Insulin Resistance",
+        "insulinResistanceDescription": "Insulin resistance is a condition where your body's cells don't respond properly to insulin, a hormone that helps regulate blood sugar levels. This can lead to higher blood sugar levels and eventually type 2 diabetes if not managed properly.",
+        "insulinResistanceCardTitle": "What is Insulin Resistance?",
+        "symptomsTitle": "Common Symptoms",
+        "symptomsFatigue": "Fatigue and low energy levels",
+        "symptomsIncreasedHunger": "Increased hunger and cravings",
+        "symptomsDifficultyLosingWeight": "Difficulty losing weight",
+        "symptomsHighBloodSugar": "High blood sugar levels",
+        "symptomsDarkPatches": "Dark patches on skin (acanthosis nigricans)",
+        "howOurAppCanHelp": "How Our App Can Help",
+        "howOurAppCanHelpDescription": "Our app provides personalized tools and guidance to help you manage insulin resistance through:",
+        "howOurAppCanHelpCustomizedMealPlanning": "Customized meal planning based on your needs",
+        "howOurAppCanHelpBloodSugarTrackingAndMonitoring": "Blood sugar tracking and monitoring",
+        "howOurAppCanHelpEducationalResources": "Educational resources about insulin resistance",
+        "howOurAppCanHelpProgressTrackingAndGoalSetting": "Progress tracking and goal setting",
+        "howOurAppCanHelpCommunitySupportAndExpertAdvice": "Community support and expert advice",
+        "startYourJourney": "Start Your Journey"
     }
 }

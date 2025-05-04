@@ -13,11 +13,9 @@ const InsulinResistanceInfo: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/2 order-2 md:order-1">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-semibold mb-4 text-green-600">What is Insulin Resistance?</h3>
+                <h3 className="text-2xl font-semibold mb-4 heading-text">{t('insulinResistanceCardTitle')}</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Insulin resistance is a condition where your body's cells don't respond properly to insulin, 
-                  a hormone that helps regulate blood sugar levels. This can lead to higher blood sugar levels 
-                  and eventually type 2 diabetes if not managed properly.
+                  {t('insulinResistanceDescription')}
                 </p>
               </div>
             </div>
@@ -48,27 +46,27 @@ const InsulinResistanceInfo: React.FC = () => {
             </div>
             <div className="md:w-1/2">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-semibold mb-4 text-green-600">Common Symptoms</h3>
+                <h3 className="text-2xl font-semibold mb-4 heading-text">{t('symptomsTitle')}</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-green-500 mr-2">•</span>
-                    <span>Fatigue and low energy levels</span>
+                    <span>{t('symptomsFatigue')}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-500 mr-2">•</span>
-                    <span>Increased hunger and cravings</span>
+                    <span>{t('symptomsIncreasedHunger')}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-500 mr-2">•</span>
-                    <span>Difficulty losing weight</span>
+                    <span>{t('symptomsDifficultyLosingWeight')}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-500 mr-2">•</span>
-                    <span>High blood sugar levels</span>
+                    <span>{t('symptomsHighBloodSugar')}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-500 mr-2">•</span>
-                    <span>Dark patches on skin (acanthosis nigricans)</span>
+                    <span>{t('symptomsDarkPatches')}</span>
                   </li>
                 </ul>
               </div>
@@ -79,31 +77,31 @@ const InsulinResistanceInfo: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/2 order-2 md:order-1">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-semibold mb-4 text-green-600">How Our App Can Help</h3>
+                <h3 className="text-2xl font-semibold mb-4 heading-text">{t('howOurAppCanHelp')}</h3>
                 <div className="space-y-4 text-gray-700">
                   <p className="leading-relaxed">
-                    Our app provides personalized tools and guidance to help you manage insulin resistance through:
+                    {t('howOurAppCanHelpDescription')}
                   </p>
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2">•</span>
-                      <span>Customized meal planning based on your needs</span>
+                      <span>{t('howOurAppCanHelpCustomizedMealPlanning')}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2">•</span>
-                      <span>Blood sugar tracking and monitoring</span>
+                      <span>{t('howOurAppCanHelpBloodSugarTrackingAndMonitoring')}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2">•</span>
-                      <span>Educational resources about insulin resistance</span>
+                      <span>{t('howOurAppCanHelpEducationalResources')}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2">•</span>
-                      <span>Progress tracking and goal setting</span>
+                      <span>{t('howOurAppCanHelpProgressTrackingAndGoalSetting')}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2">•</span>
-                      <span>Community support and expert advice</span>
+                      <span>{t('howOurAppCanHelpCommunitySupportAndExpertAdvice')}</span>
                     </li>
                   </ul>
                 </div>
@@ -112,7 +110,7 @@ const InsulinResistanceInfo: React.FC = () => {
             <div className="md:w-1/2 order-1 md:order-2">
               <div className="relative h-64 md:h-96 w-full rounded-2xl overflow-hidden shadow-lg">
                 <Image
-                  src="/healthy-food.jpg"
+                  src="/food.jpg"
                   alt="App features and benefits"
                   fill
                   className="object-cover"
@@ -121,9 +119,9 @@ const InsulinResistanceInfo: React.FC = () => {
             </div>
           </div>
 
-          <div className="text-center mt-8">
-            <button className="bg-green-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl">
-              Start Your Journey
+          <div className="text-center mt-8 flex justify-center">
+            <button className="button shadow-lg hover:shadow-xl px-8 py-4">
+              {t('startYourJourney')}
             </button>
           </div>
         </div>

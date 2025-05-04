@@ -13,7 +13,6 @@ export default async function HomePage() {
         <InsulinResistanceInfo />
         <AppInfo />
         <NewsletterSignup />
-        
       </main>
     </div>
   );
