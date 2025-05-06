@@ -1,23 +1,22 @@
 'use client';
 import React from 'react';
 import { useTranslations } from 'next-intl';
-import { FaEnvelope, FaHeart, FaInstagram, FaFacebook, FaTwitter, FaApple, FaGooglePlay } from 'react-icons/fa';
-import { motion } from 'framer-motion';
+import { FaEnvelope, FaHeart } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
   const t = useTranslations('Footer');
   const currentYear = new Date().getFullYear();
 
-  const socialLinks = [
-    { icon: <FaInstagram />, href: '#' },
-    { icon: <FaFacebook />, href: '#' },
-    { icon: <FaTwitter />, href: '#' },
-  ];
+  // const socialLinks = [
+  //   { icon: <FaInstagram />, href: '#' },
+  //   { icon: <FaFacebook />, href: '#' },
+  //   { icon: <FaTwitter />, href: '#' },
+  // ];
 
-  const appLinks = [
-    { icon: <FaApple />, href: '#', text: 'App Store' },
-    { icon: <FaGooglePlay />, href: '#', text: 'Google Play' },
-  ];
+  // const appLinks = [
+  //   { icon: <FaApple />, href: '#', text: 'App Store' },
+  //   { icon: <FaGooglePlay />, href: '#', text: 'Google Play' },
+  // ];
 
   return (
     <footer className="bg-gradient-to-b from-gray-900 to-gray-950 text-white pt-16 pb-8">
@@ -34,7 +33,7 @@ const Footer: React.FC = () => {
             <p className="text-gray-400 mb-6 max-w-md">
               {t('description')}
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
                 <motion.a
                   key={index}
@@ -46,7 +45,7 @@ const Footer: React.FC = () => {
                   {social.icon}
                 </motion.a>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}

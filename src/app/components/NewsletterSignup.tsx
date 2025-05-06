@@ -37,6 +37,7 @@ export default function NewsletterSignup() {
         setMessage(data.error || t('errorMessage'));
       }
     } catch (error) {
+      console.error('Newsletter signup error:', error);
       setStatus('error');
       setMessage(t('errorMessage'));
     }

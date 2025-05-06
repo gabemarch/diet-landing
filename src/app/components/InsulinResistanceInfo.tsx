@@ -2,15 +2,9 @@
 import React from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { useSmoothScroll } from '../hooks/useSmoothScroll';
 const InsulinResistanceInfo: React.FC = () => {
   const t = useTranslations('InsulinResistanceInfo');
-  const { scrollToSection } = useSmoothScroll();
 
-  const handleNewsletterClick = (e: React.MouseEvent<HTMLButtonElement>) => {
-    e.preventDefault();
-    scrollToSection('#newsletter');
-  };
   return (
     <section id="about-ir" className="py-16 px-4 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto">

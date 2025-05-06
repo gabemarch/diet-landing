@@ -1,12 +1,12 @@
 'use client';
 
+import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 
 const CookieBanner: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    // Check if user has already made a choice
     const cookieConsent = localStorage.getItem('cookieConsent');
     if (!cookieConsent) {
       setIsVisible(true);
@@ -31,13 +31,13 @@ const CookieBanner: React.FC = () => {
         <div className="flex-1">
           <p className="text-gray-700">
             We use cookies to enhance your experience on our website. By continuing to use our site, you agree to our{' '}
-            <a href="/privacy-policy" className="text-blue-600 hover:underline">
+            <Link href="/privacy-policy" className="text-blue-600 hover:underline">
               Privacy Policy
-            </a>
+            </Link>
             {' '}and{' '}
-            <a href="/cookie-policy" className="text-blue-600 hover:underline">
+            <Link href="/cookie-policy" className="text-blue-600 hover:underline">
               Cookie Policy
-            </a>.
+            </Link>.
           </p>
         </div>
         <div className="flex gap-4">
