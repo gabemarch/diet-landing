@@ -1,7 +1,8 @@
 {
     "HomePage": {
         "title": "Hello world!",
-        "about": "Go to the about page"
+        "description": "IRresistible is a specialized app designed specifically for people managing insulin resistance. We understand the unique challenges you face and provide the tools you need to make healthy eating simple and sustainable.",
+        "keywords": "inzulinrezisztencia, étrend, egészséges étel, receptek, bevásárlólista, diéta, cukorbetegség, egészséges életmód, főoldal"
     },
 
     "AppInfo": {

@@ -1,7 +1,9 @@
 {
     "HomePage": {
         "title": "Hello world!",
-        "about": "Go to the about page"
+        "about": "Go to the about page",
+        "keywords": "inzulinrezisztencia, étrend, egészséges étel, receptek, bevásárlólista, diéta, cukorbetegség, egészséges életmód, főoldal",
+        "description": "Az IRresistible egy speciális alkalmazás, amelyet inzulinrezisztens személyeknek terveztünk. Értjük a különleges kihívásokat, és a célunk, hogy személyes megoldásokat biztosítsunk az egyszerű és fenntartható hétköznapokra."
     },
     "AppInfo": {
         "title": "Mi az IRresistible alkalmazás?",
