@@ -12,6 +12,8 @@ const nextConfig = {
   },
   // Ensure proper handling of static files
   output: 'standalone',
+  trailingSlash: true,
+  distDir: 'build',
 };
 
 module.exports = withNextIntl(nextConfig); 

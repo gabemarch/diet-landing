@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -19,12 +23,32 @@
       }
     ],
     "paths": {
-      "@/components/*": ["./src/app/components/*"],
-      "@/i18n/*": ["./src/i18n/*"],
-      "@/messages/*": ["./src/messages/*"],
-      "@/assets/*": ["./src/assets/*"]
+      "@/*": [
+        "./src/*"
+      ],
+      "@/components/*": [
+        "./src/app/components/*"
+      ],
+      "@/i18n/*": [
+        "./src/i18n/*"
+      ],
+      "@/messages/*": [
+        "./src/messages/*"
+      ],
+      "@/assets/*": [
+        "./src/assets/*"
+      ]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "next.config.js"],
-  "exclude": ["node_modules"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "next-env.d.ts",
+    "build/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next"
+  ]
 }
