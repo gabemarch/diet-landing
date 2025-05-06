@@ -1,12 +1,19 @@
 'use client'
 import { motion } from 'framer-motion'
-import { FaArrowRight } from 'react-icons/fa'
 import { useTranslations } from 'next-intl';
 import Image from 'next/image'
 import Navigation from './Navigation'
+import { useSmoothScroll } from '../hooks/useSmoothScroll';
 
 export default function Hero() {
   const t = useTranslations('Hero');
+  const { scrollToSection } = useSmoothScroll();
+
+  const handleNewsletterClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    scrollToSection('#newsletter');
+  };
+
   return (
     <>
         <Navigation />
@@ -23,7 +30,10 @@ export default function Hero() {
           <p className="text-xl text-gray-600 mb-8">
             {t('heroDescription')}
           </p>
-          <button className="button">
+          <button 
+            onClick={handleNewsletterClick}
+            className="button"
+          >
             {t('heroButton')}
           </button>
         </motion.div>
@@ -31,15 +41,17 @@ export default function Hero() {
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          className="md:w-1/2"
+          className="md:w-1/2 w-full"
         >
-          <div className="relative h-64 md:h-96 w-full rounded-lg shadow-xl overflow-hidden">
+          <div className="relative aspect-[4/3] w-full rounded-lg shadow-xl overflow-hidden">
             <Image
               src="/hero.jpg"
               alt="Healthy food and meal planning"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
               priority
+              quality={90}
             />
           </div>
         </motion.div>

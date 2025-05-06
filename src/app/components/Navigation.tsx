@@ -4,24 +4,20 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import { useRouter } from 'next/navigation';
+import Image from 'next/image'
+import { useSmoothScroll } from '../hooks/useSmoothScroll';
 
 const Navigation: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
   const pathname = usePathname();
-  const router = useRouter();
   const t = useTranslations('Navigation');
+  const { scrollToSection } = useSmoothScroll();
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
-    if (href.startsWith('#')) {
-      const element = document.querySelector(href);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-        setIsMenuOpen(false);
-      }
-    }
+    scrollToSection(href);
+    setIsMenuOpen(false);
   };
 
   const handleLanguageChange = (locale: string) => {
@@ -43,7 +39,7 @@ const Navigation: React.FC = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <span className="text-2xl font-bold text-green-600">IRresistible</span>
+              <Image src="/logo_horizontal_green_small.png" alt="IRresistible Logo" width={150} height={150} />
             </Link>
           </div>
 

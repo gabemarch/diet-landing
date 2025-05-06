@@ -23,7 +23,13 @@
         "successMessage": "Thank you for subscribing! We'll keep you updated about our launch.",
         "privacyMessage": "We respect your privacy. Unsubscribe at any time.",
         "subscribe": "Subscribe",
-        "subscribing": "Subscribing..."
+        "subscribing": "Subscribing...",
+        "subscribeButton": "Subscribe",
+        "subscribeButtonLoading": "Subscribing...",
+        "subscribeButtonSuccess": "Thank you for subscribing! We'll keep you updated about our launch.",
+        "subscribeButtonError": "Subscription failed. Please try again.",
+        "placeholder": "Enter your email",
+        "callToAction": "Subscribe to Our Newsletter"
     },
     "Navigation": {
         "subscribe": "Subscribe",
@@ -46,14 +52,24 @@
         "symptomsIncreasedHunger": "Increased hunger and cravings",
         "symptomsDifficultyLosingWeight": "Difficulty losing weight",
         "symptomsHighBloodSugar": "High blood sugar levels",
-        "symptomsDarkPatches": "Dark patches on skin (acanthosis nigricans)",
-        "howOurAppCanHelp": "How Our App Can Help",
+        "howOurAppCanHelp": "How Our App Can Help?*",
         "howOurAppCanHelpDescription": "Our app provides personalized tools and guidance to help you manage insulin resistance through:",
         "howOurAppCanHelpCustomizedMealPlanning": "Customized meal planning based on your needs",
-        "howOurAppCanHelpBloodSugarTrackingAndMonitoring": "Blood sugar tracking and monitoring",
-        "howOurAppCanHelpEducationalResources": "Educational resources about insulin resistance",
-        "howOurAppCanHelpProgressTrackingAndGoalSetting": "Progress tracking and goal setting",
-        "howOurAppCanHelpCommunitySupportAndExpertAdvice": "Community support and expert advice",
-        "startYourJourney": "Start Your Journey"
+        "howOurAppCanHelpShoppingList": "Easy-to-manage shopping list",
+        "howOurAppCanHelpRecipes": "Variety of healthy recipes",
+        "howOurAppCanHelpEducationalResources": "Insulin Resistance tips",
+        "howOurAppCanHelpRecipesNutritionalInfo": "Detailed nutritional information",
+        "disclaimer": "*The information provided is for educational purposes only and should not be used as a substitute for professional medical advice."
+    },
+    "Footer": {
+        "copyright": "© {currentYear} MarchDesign. All rights reserved.",
+        "description": "Your personal companion for managing insulin resistance through healthy eating and lifestyle choices.",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service",
+        "quickLinks": "Quick Links",
+        "contactUs": "Contact Us",
+        "newsletter": "Newsletter",
+        "features": "Features",
+        "aboutIR": "About IR"
     }
 }
