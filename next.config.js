@@ -18,6 +18,19 @@ const nextConfig = {
       }
     ]
   },
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'X-Forwarded-Proto',
+            value: 'https'
+          }
+        ]
+      }
+    ]
+  },
   // Ensure proper handling of static files
   output: 'standalone',
   trailingSlash: true,
