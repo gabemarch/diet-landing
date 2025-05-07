@@ -10,6 +10,14 @@ const nextConfig = {
       },
     ],
   },
+  async rewrites() {
+    return [
+      {
+        source: '/.well-known/:path*',
+        destination: '/.well-known/:path*',
+      }
+    ]
+  },
   // Ensure proper handling of static files
   output: 'standalone',
   trailingSlash: true,
