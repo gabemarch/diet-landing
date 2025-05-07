@@ -30,7 +30,7 @@ const Navigation: React.FC = () => {
     { name: t('home'), href: '/' },
     { name: t('aboutIR'), href: '#about-ir' },
     { name: t('features'), href: '#features' },
-    { name: t('contact'), href: '#contact' },
+    { name: t('newsletter'), href: '#newsletter' },
   ];
 
   return (
@@ -58,8 +58,8 @@ const Navigation: React.FC = () => {
               </Link>
             ))}
             <Link
-              href="#contact"
-              onClick={(e) => handleScroll(e, '#contact')}
+              href="#newsletter"
+              onClick={(e) => handleScroll(e, '#newsletter')}
               className="button text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition-colors"
             >
               {t('subscribe')}
